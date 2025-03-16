@@ -7,14 +7,12 @@ sns.set(style='dark')
 
 # Load dataset
 # bike_sharing = pd.read_csv("bike_sharing.csv")
-bike_sharing = pd.read_csv("https://raw.githubusercontent.com/muhdavi/analisis-data/main/dashboard/bike_sharing.csv")
+bike_sharing = pd.read_csv("https://github.com/tabita191103/PYTHON/blob/main/dashboard/bike_sharing.csv")
 
 with st.sidebar:
-    # Menambahkan logo perusahaan
-    st.image("https://avatars.githubusercontent.com/u/125043070?v=4")
 
     # Menambahkan judul dan subjudul
-    st.title('Proyek Akhir: Analisis Data Peminjaman Sepeda :sparkles:')
+    st.title('Proyek Akhir: Analisis Data Peminjaman Sepeda')
     st.header('Nama: Tabita')
     st.subheader('Email: novitabitasinaga@gmail.com')
     st.subheader('Id Dicoding: tabita-novi-sinaga')
