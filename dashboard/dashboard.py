@@ -7,7 +7,9 @@ sns.set(style='dark')
 
 # Load dataset
 # bike_sharing = pd.read_csv("bike_sharing.csv")
-bike_sharing = pd.read_csv("https://github.com/tabita191103/PYTHON/blob/main/dashboard/bike_sharing.csv")
+bike_sharing = pd.read_csv("https://raw.githubusercontent.com/tabita191103/PYTHON/main/dashboard/bike_sharing.csv")
+
+
 
 with st.sidebar:
 
